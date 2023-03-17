@@ -1,4 +1,4 @@
-# kmi2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
+# KMI2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
 ![kmi2122-dataset](https://img.shields.io/badge/pypi-kmi2122-blue)
 ![Pypi Version](https://img.shields.io/pypi/v/kmi2122.svg)
 [![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v2.0%20adopted-black.svg)](code_of_conduct.md)
@@ -8,7 +8,7 @@
 
 
 <p align="center" width="100%">
-    <img width="600" src="https://github.com/DSDanielPark/kmi2122-dataset/doc/kmi2122.png">
+    <img width="600" src="https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/kmi2122.png">
 </p>
 
 
@@ -40,8 +40,8 @@ kmi = kd.KMI2122()
 df = kmi.get_df() # you can get a dataframe (pandas.DataFrame)
 column_dict = dict(kmi.column_info()) # information of columns (dict) 
 ```
-- tutorial: https://github.com/DSDanielPark/kmi2122-dataset/doc/tutorial.ipynb
-- file list:  https://github.com/DSDanielPark/kmi2122-dataset/doc/file_list.csv  
+- tutorial: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/tutorial.ipynb
+- file list: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/file_list.csv
 You can check the list of KOSIS statistical files used to create the following dataframe at the above url. 
 
 <br>
