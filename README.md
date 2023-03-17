@@ -122,10 +122,7 @@ Also, if there are columns with missing values in some tables, the columns with 
 
 ## Format
 
-The [dataset] is a mapping from conversation [UUID] to a conversation:
-
 ```json
-
 {
     'kmi_dataset_column_info': {'table0_col1': 'Number of trading days',
                                 'table0_col10': 'Trading volume',
@@ -134,7 +131,8 @@ The [dataset] is a mapping from conversation [UUID] to a conversation:
                                 'table0_col13': 'Trading value (unit: million KRW)',
                                 ...
 
-                                'table9_date': 'Trading volume of listed stocks at the point in time'},
+                                'table9_date': 'Trading volume of listed stocks'
+                                },
     'kmi_dataset_main': '{"date":{"0":2021.01,"1":2021.02,"2":2021.03,"3":2021.04,"4" ....}' ....}
 }
 
