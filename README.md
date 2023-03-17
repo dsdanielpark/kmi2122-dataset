@@ -10,7 +10,7 @@
 ## Install
 
 ```
-pip install chitchat_dataset
+pip install kmi2122
 ```
 
 or simply download the raw dataset:
@@ -18,6 +18,7 @@ or simply download the raw dataset:
 curl -LO https://raw.githubusercontent.com/DSDanielPark/kmi2122-dataset/master/kmi2122_dataset/dataset.json
 ```
 
+<br>
 
 ## Usage
 ```python
@@ -31,8 +32,8 @@ dict_column_info = dict(kmi.column_info())
 <br>
 
 ## Stats
-- 24 sequences: 2022.01 ~ 2023.12
-- 2,201 Korean statistical columns from 57 tables
+- 24 monthly sequences from Jan, 2022 to Dec, 2023
+- 2,201 Korean statistical columns from 57 tables in one dataframe
 
 <br>
 
@@ -113,8 +114,11 @@ This dataset provides valuable information for time series data analysis and mod
     | 57 | table57     | Consumer Price Index by Item Characteristic 2020100                    |
 
 <br>
+The column names of the dataset have been maintained in Korean. In addition, you can check the 57 statistics file names in Korean through the key value of table_list in kmi_dataset_column_info. We apologize for the inconvenience, but we do not provide English-translated values as changing Korean to English can make it difficult for users to compare with the original data on KOSIS.
 
+Also, if there are columns with missing values in some tables, the columns with missing values have been removed. Therefore, please note that the entire dataset does not have any missing values.
 
+<br>
 
 ## Format
 
@@ -122,14 +126,14 @@ The [dataset] is a mapping from conversation [UUID] to a conversation:
 
 ```json
 {
-    'kmi_dataset_column_info': {'table0_col1': '거래실적_매매일수 (일)',
-                                'table0_col10': '거래실적_거래대금',
-                                'table0_col11': '거래실적_거래대금.1',
-                                'table0_col12': '거래실적_거래대금.2',
-                                'table0_col13': '거래실적_거래대금.3',
-                                              ...
+    'kmi_dataset_column_info': {'table0_col1': 'Number of trading days',
+                                'table0_col10': 'Trading volume',
+                                'table0_col11': 'Trading value (unit: million KRW)',
+                                'table0_col12': 'Trading value (unit: million KRW)',
+                                'table0_col13': 'Trading value (unit: million KRW)',
+                                ...
 
-                                'table9_date': '상장주식거래실적_시점'},,
+                                'table9_date': 'Trading volume of listed stocks at the point in time'},,
     'kmi_dataset_main': '{"date":{"0":2021.01,"1":2021.02,"2":2021.03,"3":2021.04,"4" ....}' ....}
 }
 ```
