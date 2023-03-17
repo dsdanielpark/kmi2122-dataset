@@ -8,7 +8,6 @@
 
 ![]https://github.com/DSDanielPark/kmi2122-dataset/blob/abf20266006ddc34afc90aa93e3c289ad6584c6e/KMI2122_DATASET.ipynb
 
-![](https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/kmi2122.png)   
 
 
 
