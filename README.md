@@ -6,6 +6,7 @@
 ![wheel](https://img.shields.io/badge/wheel-included-black)
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
 
+<br>
 
 ## Install
 
@@ -21,13 +22,20 @@ curl -LO https://raw.githubusercontent.com/DSDanielPark/kmi2122-dataset/master/k
 <br>
 
 ## Usage
-```python
-from kmi2122_dataset import KMI2122
 
-kmi = KMI2122()
-df = kmi.get_df()
-dict_column_info = dict(kmi.column_info())
+```python
+import kmi2122_dataset as kd
+
+raw_dataset = kd.Dataset() # you can see raw dataset (dict)
+
+kmi = kd.KMI2122()
+df = kmi.get_df() # you can get a dataframe (pandas.DataFrame)
+
+col_dict = dict(kmi.column_info()) # information of columns (dict) 
 ```
+- tutorial: https://github.com/DSDanielPark/kmi2122-dataset/doc/tutorial.ipynb
+- file list:  https://github.com/DSDanielPark/kmi2122-dataset/doc/file_list.csv  
+You can check the list of KOSIS statistical files used to create the following dataframe at the above url. 
 
 <br>
 
