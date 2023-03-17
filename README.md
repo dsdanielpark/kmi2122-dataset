@@ -6,9 +6,7 @@
 ![wheel](https://img.shields.io/badge/wheel-included-black)
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
 
-![]https://github.com/DSDanielPark/kmi2122-dataset/blob/abf20266006ddc34afc90aa93e3c289ad6584c6e/KMI2122_DATASET.ipynb
-
-
+![](https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/kmi2122.png)   
 
 
 <br>
