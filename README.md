@@ -65,66 +65,68 @@ This dataset provides valuable information for time series data analysis and mod
 - Missing values do not exist.
 - The published statistical data were original, and no separate preprocessing was performed.
 
-    |    | file_name   | description_in_eng                                                     |
-    |---:|:------------|:-----------------------------------------------------------------------|
-    |  0 | table0      | ELW Trading Volume                                                     |
-    |  1 | table1      | ELW Investor Trading Volume                                            |
-    |  2 | table2      | ETF Trading Volume                                                     |
-    |  3 | table3      | ETF Investor Trading Volume                                            |
-    |  4 | table4      | ETN Trading Volume                                                     |
-    |  5 | table5      | ETN Investor Trading Volume                                            |
-    |  6 | table6      | KRX 100                                                                |
-    |  7 | table7      | KRX 300                                                                |
-    |  8 | table8      | KRX Dividend Yield                                                     |
-    |  9 | table9      | KRX Listed Stock Trading Volume                                        |
-    | 10 | table10     | KRX Listed Stock Summary                                               |
-    | 11 | table11     | KRX Listed Stock Investor Trading Volume                               |
-    | 12 | table12     | KRX Price to Book Ratio (PBR)                                          |
-    | 13 | table13     | KRX Price to Earnings Ratio (PER)                                      |
-    | 14 | table14     | KRX Major Price Index                                                  |
-    | 15 | table15     | KTOP 30                                                                |
-    | 16 | table16     | Composite Stock Price Index 2015100 10th                               |
-    | 17 | table17     | Composite Stock Price Index 2015100 Composition Index Time Series 10th |
-    | 18 | table18     | Expected Inflation Rate National Monthly                               |
-    | 19 | table19     | Production Diffusion Index                                             |
-    | 20 | table20     | Consumer Price Index 2020100                                           |
-    | 21 | table21     | Consumer Price Index Including Self-Contained Housing 2020100          |
-    | 22 | table22     | Monthly Consumer Price Index Fluctuation Rate                          |
-    | 23 | table23     | Korea Exchange Securities Trading Volume and Trading Volume per Trade  |
-    | 24 | table24     | Korea Exchange Securities Trading Volume                               |
-    | 25 | table25     | Korea Exchange Securities Industry Market Capitalization               |
-    | 26 | table26     | Korea Exchange Securities Listed Company Dividend Status               |
-    | 27 | table27     | Korea Exchange Securities Listed Company Revenue Status                |
-    | 28 | table28     | Korea Exchange Securities Listed Stock Summary                         |
-    | 29 | table29     | Korea Exchange Securities Investor Trading Volume                      |
-    | 30 | table30     | Korea Exchange Securities Program Trading Trading Volume               |
-    | 31 | table31     | Consumer Price Index Including Self-Contained Housing 2020100          |
-    | 32 | table32     | Consumer Price Index by Expenditure Purpose Including Items 2020100    |
-    | 33 | table33     | KOSDAQ 150 Sector Index                                                |
-    | 34 | table34     | KOSDAQ Trading Volume                                                  |
-    | 35 | table35     | KOSDAQ Dividend Yield                                                  |
-    | 36 | table36     | KOSDAQ Industry Revenue Status                                         |
-    | 37 | table37     | KOSDAQ Industry Financial Status                                       |
-    | 38 | table38     | KOSDAQ Industry Stock Price Index                                      |
-    | 39 | table39     | KOSDAQ Industry Investment Indicators                                  |
-    | 40 | table40     | KOSDAQ Listed Company Dividend Status                                  |
-    | 41 | table41     | KOSDAQ Listed Company Revenue Status                                   |
-    | 42 | table42     | KOSDAQ Price to Book Ratio (PBR)                                       |
-    | 43 | table43     | KOSDAQ Price to Earnings Ratio (PER)                                   |
-    | 44 | table44     | KOSDAQ Major Price Index                                               |
-    | 45 | table45     | KOSDAQ Index                                                           |
-    | 46 | table46     | KOSDAQ Investor Trading Volume                                         |
-    | 47 | table47     | KOSPI 200 Sector Index                                                 |
-    | 48 | table48     | KOSPI 200 Index                                                        |
-    | 49 | table49     | KOSPI Dividend Yield                                                   |
-    | 50 | table50     | KOSPI Industry Stock Price Index                                       |
-    | 51 | table51     | KOSPI Industry Investment Indicators                                   |
-    | 52 | table52     | KOSPI Price to Book Ratio (PBR)                                        |
-    | 53 | table53     | KOSPI Price to Earnings Ratio (PER)                                    |
-    | 54 | table54     | KOSPI Major Price Index                                                |
-    | 55 | table55     | KOSPI Index                                                            |
-    | 56 | table56     | Consumer Price Index by Item and Item Characteristic 2020100           |
-    | 57 | table57     | Consumer Price Index by Item Characteristic 2020100                    |
+
+
+|    | file_name   | description_in_eng                                                     |
+|---:|:------------|:-----------------------------------------------------------------------|
+|  0 | table0      | ELW Trading Volume                                                     |
+|  1 | table1      | ELW Investor Trading Volume                                            |
+|  2 | table2      | ETF Trading Volume                                                     |
+|  3 | table3      | ETF Investor Trading Volume                                            |
+|  4 | table4      | ETN Trading Volume                                                     |
+|  5 | table5      | ETN Investor Trading Volume                                            |
+|  6 | table6      | KRX 100                                                                |
+|  7 | table7      | KRX 300                                                                |
+|  8 | table8      | KRX Dividend Yield                                                     |
+|  9 | table9      | KRX Listed Stock Trading Volume                                        |
+| 10 | table10     | KRX Listed Stock Summary                                               |
+| 11 | table11     | KRX Listed Stock Investor Trading Volume                               |
+| 12 | table12     | KRX Price to Book Ratio (PBR)                                          |
+| 13 | table13     | KRX Price to Earnings Ratio (PER)                                      |
+| 14 | table14     | KRX Major Price Index                                                  |
+| 15 | table15     | KTOP 30                                                                |
+| 16 | table16     | Composite Stock Price Index 2015100 10th                               |
+| 17 | table17     | Composite Stock Price Index 2015100 Composition Index Time Series 10th |
+| 18 | table18     | Expected Inflation Rate National Monthly                               |
+| 19 | table19     | Production Diffusion Index                                             |
+| 20 | table20     | Consumer Price Index 2020100                                           |
+| 21 | table21     | Consumer Price Index Including Self-Contained Housing 2020100          |
+| 22 | table22     | Monthly Consumer Price Index Fluctuation Rate                          |
+| 23 | table23     | Korea Exchange Securities Trading Volume and Trading Volume per Trade  |
+| 24 | table24     | Korea Exchange Securities Trading Volume                               |
+| 25 | table25     | Korea Exchange Securities Industry Market Capitalization               |
+| 26 | table26     | Korea Exchange Securities Listed Company Dividend Status               |
+| 27 | table27     | Korea Exchange Securities Listed Company Revenue Status                |
+| 28 | table28     | Korea Exchange Securities Listed Stock Summary                         |
+| 29 | table29     | Korea Exchange Securities Investor Trading Volume                      |
+| 30 | table30     | Korea Exchange Securities Program Trading Trading Volume               |
+| 31 | table31     | Consumer Price Index Including Self-Contained Housing 2020100          |
+| 32 | table32     | Consumer Price Index by Expenditure Purpose Including Items 2020100    |
+| 33 | table33     | KOSDAQ 150 Sector Index                                                |
+| 34 | table34     | KOSDAQ Trading Volume                                                  |
+| 35 | table35     | KOSDAQ Dividend Yield                                                  |
+| 36 | table36     | KOSDAQ Industry Revenue Status                                         |
+| 37 | table37     | KOSDAQ Industry Financial Status                                       |
+| 38 | table38     | KOSDAQ Industry Stock Price Index                                      |
+| 39 | table39     | KOSDAQ Industry Investment Indicators                                  |
+| 40 | table40     | KOSDAQ Listed Company Dividend Status                                  |
+| 41 | table41     | KOSDAQ Listed Company Revenue Status                                   |
+| 42 | table42     | KOSDAQ Price to Book Ratio (PBR)                                       |
+| 43 | table43     | KOSDAQ Price to Earnings Ratio (PER)                                   |
+| 44 | table44     | KOSDAQ Major Price Index                                               |
+| 45 | table45     | KOSDAQ Index                                                           |
+| 46 | table46     | KOSDAQ Investor Trading Volume                                         |
+| 47 | table47     | KOSPI 200 Sector Index                                                 |
+| 48 | table48     | KOSPI 200 Index                                                        |
+| 49 | table49     | KOSPI Dividend Yield                                                   |
+| 50 | table50     | KOSPI Industry Stock Price Index                                       |
+| 51 | table51     | KOSPI Industry Investment Indicators                                   |
+| 52 | table52     | KOSPI Price to Book Ratio (PBR)                                        |
+| 53 | table53     | KOSPI Price to Earnings Ratio (PER)                                    |
+| 54 | table54     | KOSPI Major Price Index                                                |
+| 55 | table55     | KOSPI Index                                                            |
+| 56 | table56     | Consumer Price Index by Item and Item Characteristic 2020100           |
+| 57 | table57     | Consumer Price Index by Item Characteristic 2020100                    |
 
 <br>
 The column names of the dataset have been maintained in Korean. In addition, you can check the 57 statistics file names in Korean through the key value of table_list in kmi_dataset_column_info. We apologize for the inconvenience, but we do not provide English-translated values as changing Korean to English can make it difficult for users to compare with the original data on KOSIS.
