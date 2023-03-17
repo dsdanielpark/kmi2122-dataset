@@ -40,7 +40,7 @@ You can check the list of KOSIS statistical files used to create the following d
 
 ## Stats
 - 24 monthly sequences from Jan, 2022 to Dec, 2023
-- 2,201 Korean statistical columns from 57 tables in one dataframe
+- 2,593 Korean statistical columns from 57 tables in one dataframe
 
 <br>
 
@@ -54,8 +54,8 @@ This dataset provides valuable information for time series data analysis and mod
 <br>
 
 ## Contents
-- This dataset has a total of 2201 columns with 24 sequences (monthly from 2021.01 to 2022.12) as the number of columns. 
-- Those 2201 columns were extracted from 57 tables.
+- This dataset has a total of 2593 columns with 24 sequences (monthly from 2021.01 to 2022.12) as the number of columns. 
+- Those 2593 columns were extracted from 57 tables.
 - Missing values do not exist.
 - The published statistical data were original, and no separate preprocessing was performed.
 
