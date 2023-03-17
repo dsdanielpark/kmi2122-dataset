@@ -10,6 +10,13 @@ This dataset provides valuable information for time series data analysis and mod
 
 ## Contents
 
+
+
+- This dataset has a total of 2201 columns with 24 sequences (monthly from 2021.01 to 2022.12) as the number of columns. 
+- Those 2201 columns were extracted from 57 tables.
+- Missing values do not exist.
+- The published statistical data were original, and no separate preprocessing was performed.
+
 |    | file_name   | description                                 | description_in_eng                                                     |
 |---:|:------------|:--------------------------------------------|:-----------------------------------------------------------------------|
 |  0 | table0      | ELW 거래실적                                | ELW Trading Volume                                                     |
