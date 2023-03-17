@@ -24,7 +24,8 @@ class KMI2122:
         self._data = json.load(open(self.path))
 
     def get_df(self):
-        return pd.Dataframe(self._data['kmi_dataset_main'])
+        parsed = json.loads(self._data['kmi_dataset_main'])
+        return pd.Dataframe(parsed)
     
     def column_info(self):
         return self._data['kmi_dataset_column_info']
