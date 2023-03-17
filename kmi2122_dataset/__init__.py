@@ -21,11 +21,12 @@ class KMI2122:
     def __init__(self, path: str = _PATH, end_of_utterance_token: str = " ") -> None:
         """Instantiates a new ConversationDataset object."""
         self.path = path
-        self._data = json.load(open(self.path))
+        with open(self.path, 'r') as j:
+            self._data = json.loads(j.read())
 
     def get_df(self):
         parsed = json.loads(self._data['kmi_dataset_main'])
-        return pd.Dataframe(parsed)
+        return pd.DataFrame(parsed)
     
     def column_info(self):
         return self._data['kmi_dataset_column_info']
