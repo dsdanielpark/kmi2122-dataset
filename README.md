@@ -81,3 +81,20 @@ This dataset provides valuable information for time series data analysis and mod
 The Korean Statistical Information Service [(KOSIS)](https://kosis.kr/serviceInfo/kosisIntroduce.do) is a one-stop statistical service provided by the National Statistical Office. It helps users find the statistics they need by collecting key domestic, international, and North Korean statistics in one place. KOSIS contains all government-approved statistics on the economy, society, and environment from over 400 organizations. It also provides the latest statistics on international finance and economy from the IMF, Worldbank, and OECD.
 
 Through an easy and convenient search function, various contents, and statistical explanatory data services that even the general public can understand, KOSIS allows users to quickly and accurately find the statistical data they need.
+
+# DataSet
+
+You can find datasets on the latest macroeconomic indicators for Korea from official data providers such as the Bank of Korea (https://www.bok.or.kr/) or the Korea Statistics Portal (https://kosis.kr/)
+
+1. Blockchain datasets
+    - Blockchain.com (https://www.blockchain.com/): provides blockchain transaction data for cryptocurrencies such as Bitcoin and Ethereum.
+    - Coinmetrics.io (https://coinmetrics.io/): collects and analyzes various blockchain data.
+    - Kaggle (https://www.kaggle.com/datasets?tags=14120-blockchain): a platform that provides various blockchain datasets.
+2. Macroeconomic indicators for each country
+    - International Monetary Fund (IMF) (https://www.imf.org/en/Data): provides macroeconomic indicator data for countries around the world.
+    - World Bank (https://data.worldbank.org/): provides data on macroeconomic indicators, population, poverty, and more for each country.
+    - OECD (https://stats.oecd.org/): provides data on macroeconomic indicators, social issues, environmental issues, and more for OECD member countries.
+3. Stock datasets
+    - Yahoo Finance (https://finance.yahoo.com/): provides data for US stocks, futures, options, and more.
+    - Google Finance (https://www.google.com/finance): provides data for US stocks, indices, and more.
+    - Investing.com (https://www.investing.com/): provides data for stocks, indices, funds, and more worldwide.
