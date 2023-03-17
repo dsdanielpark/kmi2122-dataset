@@ -1,4 +1,10 @@
 # kmi2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
+![kmi2122-dataset](https://img.shields.io/badge/pypi-kmi2122-blue)
+![Pypi Version](https://img.shields.io/pypi/v/kmi2122.svg)
+[![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v2.0%20adopted-black.svg)](code_of_conduct.md)
+[![Python Version](https://img.shields.io/badge/python->=3.6-black.svg)](code_of_conduct.md)
+![wheel](https://img.shields.io/badge/wheel-included-black)
+<!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
 
 
 ## Install
@@ -108,13 +114,54 @@ This dataset provides valuable information for time series data analysis and mod
 
 <br>
 
+
+
+## Format
+
+The [dataset] is a mapping from conversation [UUID] to a conversation:
+
+```json
+{
+    'kmi_dataset_column_info': {'table0_col1': '거래실적_매매일수 (일)',
+                                'table0_col10': '거래실적_거래대금',
+                                'table0_col11': '거래실적_거래대금.1',
+                                'table0_col12': '거래실적_거래대금.2',
+                                'table0_col13': '거래실적_거래대금.3',
+                                              ...
+
+                                'table9_date': '상장주식거래실적_시점'},,
+    'kmi_dataset_main': '{"date":{"0":2021.01,"1":2021.02,"2":2021.03,"3":2021.04,"4" ....}' ....}
+}
+```
+
+
+<br>
+
+## How to Cite
+If you extend or use this work, please cite the paper where it was introduced:
+```
+Data provided by The Korean Statistical Information Service(KOSIS), "KMI-2122" dataset, accessed from the 'kmi2122-dataset' repository on GitHub (https://github.com/DSDanielPark/kmi2122-dataset) on {Data Citation Date}
+```
+
+Please use this badge.
+```
+![kmi2122-dataset](https://img.shields.io/badge/pypi-kmi2122-blue)
+```
+
+
+<br>
+
+# Further Reading
+
 ## What is the Korean Statistical Information Service (KOSIS)?
 The Korean Statistical Information Service [(KOSIS)](https://kosis.kr/serviceInfo/kosisIntroduce.do) is a one-stop statistical service provided by the National Statistical Office. It helps users find the statistics they need by collecting key domestic, international, and North Korean statistics in one place. KOSIS contains all government-approved statistics on the economy, society, and environment from over 400 organizations. It also provides the latest statistics on international finance and economy from the IMF, Worldbank, and OECD.
 
 Through an easy and convenient search function, various contents, and statistical explanatory data services that even the general public can understand, KOSIS allows users to quickly and accurately find the statistical data they need.
 
-# DataSet
 
+<br>
+
+## DataSets
 You can find datasets on the latest macroeconomic indicators for Korea from official data providers such as the Bank of Korea (https://www.bok.or.kr/) or the Korea Statistics Portal (https://kosis.kr/)
 
 1. Blockchain datasets
@@ -129,3 +176,5 @@ You can find datasets on the latest macroeconomic indicators for Korea from offi
     - Yahoo Finance (https://finance.yahoo.com/): provides data for US stocks, futures, options, and more.
     - Google Finance (https://www.google.com/finance): provides data for US stocks, indices, and more.
     - Investing.com (https://www.investing.com/): provides data for stocks, indices, funds, and more worldwide.
+
+
