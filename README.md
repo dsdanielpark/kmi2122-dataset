@@ -1,4 +1,35 @@
 # kmi2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
+
+
+## Install
+
+```
+pip install chitchat_dataset
+```
+
+or simply download the raw dataset:
+```
+curl -LO https://raw.githubusercontent.com/DSDanielPark/kmi2122-dataset/master/kmi2122_dataset/dataset.json
+```
+
+
+## Usage
+```python
+from kmi2122_dataset import KMI2122
+
+kmi = KMI2122()
+df = kmi.get_df()
+dict_column_info = dict(kmi.column_info())
+```
+
+<br>
+
+## Stats
+- 24 sequences: 2022.01 ~ 2023.12
+- 2,201 Korean statistical columns from 57 tables
+
+<br>
+
 ## Description
 This dataset merges monthly economic indicators provided by the Korean Statistical Information Service (KOSIS) into a single data frame. The data covers a total of 24 sequences from January 2021 to December 2022 and includes information in 24 columns.
 
