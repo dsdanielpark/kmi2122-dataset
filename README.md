@@ -1,4 +1,4 @@
-# kmi2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
+# KMI2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
 ![kmi2122-dataset](https://img.shields.io/badge/pypi-kmi2122-blue)
 ![Pypi Version](https://img.shields.io/pypi/v/kmi2122.svg)
 [![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v2.0%20adopted-black.svg)](code_of_conduct.md)
