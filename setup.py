@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="kmi2122",
-    version="0.1.5",
+    version="0.1.6",
     author="parkminwoo",
     author_email="parkminwoo1991@gmail.com",
     description="This dataset includes some macroeconomic indicators for South Korea in 2021-2022.",

@@ -12,13 +12,15 @@ class Dataset(dict):
     def __init__(self, path: str = _PATH) -> None:
         """Instantiates a new Dataset object"""
         self.path = path
-        super(Dataset, self).__init__(json.load(open(self.path)))
+        with open(self.path, 'r') as j:
+            self._rawdata = json.loads(j.read())
+        super(Dataset, self).__init__(self._rawdata)
 
 
 class KMI2122:
     """kmi2122 dataset"""
 
-    def __init__(self, path: str = _PATH, end_of_utterance_token: str = " ") -> None:
+    def __init__(self, path: str = _PATH) -> None:
         """Instantiates a new ConversationDataset object."""
         self.path = path
         with open(self.path, 'r') as j:
