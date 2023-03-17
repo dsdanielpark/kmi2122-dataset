@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="kmidataset",
+    name="kmi2122",
     version="0.1.0",
     author="parkminwoo",
     author_email="parkminwoo1991@gmail.com",
