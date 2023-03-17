@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="kmi2122",
-    version="0.1.7",
+    version="0.1.8",
     author="parkminwoo",
     author_email="parkminwoo1991@gmail.com",
     description="This dataset includes some macroeconomic indicators for South Korea in 2021-2022.",
@@ -14,6 +14,6 @@ setuptools.setup(
     url="https://github.com/DSDanielPark/kmi2122-dataset",
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
-    install_requires=["json", "pandas"],
+    install_requires=["jsons", "pandas"],
     include_package_data=True
     )
