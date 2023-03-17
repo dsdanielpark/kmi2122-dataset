@@ -8,7 +8,7 @@
 
 
 <p align="center" width="100%">
-    <img width="600" src="https://github.com/DSDanielPark/kmi2122-dataset/doc/kmi2122.png">
+    <img width="600" src="https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/kmi2122.png">
 </p>
 
 
