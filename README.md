@@ -30,8 +30,7 @@ raw_dataset = kd.Dataset() # you can see raw dataset (dict)
 
 kmi = kd.KMI2122()
 df = kmi.get_df() # you can get a dataframe (pandas.DataFrame)
-
-col_dict = dict(kmi.column_info()) # information of columns (dict) 
+column_dict = dict(kmi.column_info()) # information of columns (dict) 
 ```
 - tutorial: https://github.com/DSDanielPark/kmi2122-dataset/doc/tutorial.ipynb
 - file list:  https://github.com/DSDanielPark/kmi2122-dataset/doc/file_list.csv  
@@ -131,6 +130,7 @@ Also, if there are columns with missing values in some tables, the columns with 
 ## Format
 
 ```json
+
 {
     'kmi_dataset_column_info': {'table0_col1': 'Number of trading days',
                                 'table0_col10': 'Trading volume',
