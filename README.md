@@ -5,11 +5,9 @@
 [![Python Version](https://img.shields.io/badge/python->=3.6-black.svg)](code_of_conduct.md)
 ![wheel](https://img.shields.io/badge/wheel-included-black)
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
-
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing)
 
 ![](https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/kmi2122.png)   
-
 
 
 <br>
@@ -156,7 +154,7 @@ Also, if there are columns with missing values in some tables, the columns with 
 <br>
 
 ## How to Cite
-If you extend or use this work, please cite the paper where it was introduced:
+If you extend or use this work, please cite using this.
 ```
 Data provided by The Korean Statistical Information Service(KOSIS), "KMI-2122" dataset, accessed from the 'kmi2122-dataset' repository on GitHub (https://github.com/DSDanielPark/kmi2122-dataset) on {Data Citation Date}
 ```
