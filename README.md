@@ -29,7 +29,9 @@ curl -LO https://raw.githubusercontent.com/DSDanielPark/kmi2122-dataset/master/k
 Alternatively, you can use the dataset uploaded to Hugging Face as follows.
 ```python
 from datasets import load_dataset
-dataset = load_dataset("danielpark/KMI2122-v1")
+
+dataset = load_dataset("danielpark/KMI2122-v1", "csv")
+df = pd.DataFrame(dataset['train'])
 ```
 
 <br>
