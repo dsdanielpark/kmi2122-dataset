@@ -26,6 +26,12 @@ or simply download the raw dataset:
 curl -LO https://raw.githubusercontent.com/DSDanielPark/kmi2122-dataset/master/kmi2122_dataset/dataset.json
 ```
 
+Alternatively, you can use the dataset uploaded to Hugging Face as follows.
+```python
+from datasets import load_dataset
+dataset = load_dataset("danielpark/KMI2122-v1")
+```
+
 <br>
 
 ## Usage
