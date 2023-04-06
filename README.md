@@ -5,7 +5,9 @@
 [![Python Version](https://img.shields.io/badge/python->=3.6-black.svg)](code_of_conduct.md)
 ![wheel](https://img.shields.io/badge/wheel-included-black)
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing)
+
+## Quick Start
+Please, check this [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing) before use.
 
 
 
