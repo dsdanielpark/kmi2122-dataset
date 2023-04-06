@@ -7,7 +7,7 @@
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
 
 ## Quick Start
-Please, check this [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing) before use.
+Please, check this before use. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing) 
 
 
 
