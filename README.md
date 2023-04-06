@@ -5,16 +5,17 @@
 [![Python Version](https://img.shields.io/badge/python->=3.6-black.svg)](code_of_conduct.md)
 ![wheel](https://img.shields.io/badge/wheel-included-black)
 <!-- ![Code convention](https://img.shields.io/badge/code%20convention-pep8-black) -->
-
-## Quick Start
-Please, check this before use. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing) 
-
-
-
+The data covers a total of 24 sequences from January 2021 to December 2022 and includes information in 24 columns.
 
 <br>
 
-## Install
+## Quick Start
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ETKhELKSwmo4YP5Cpsbx-xGmWmmurcI4?usp=sharing)  <br>
+Please, check this before use. 
+
+<br>
+
+## Installation
 
 ```
 pip install kmi2122
