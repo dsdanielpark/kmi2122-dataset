@@ -47,8 +47,8 @@ kmi = kd.KMI2122()
 df = kmi.get_df() # you can get a dataframe (pandas.DataFrame)
 column_dict = dict(kmi.column_info()) # information of columns (dict) 
 ```
-- tutorial: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/tutorial.ipynb
-- file list: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/doc/file_list.csv
+- tutorial: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/docs/tutorial.ipynb
+- file list: https://github.com/DSDanielPark/kmi2122-dataset/blob/main/docs/file_list.csv
 You can check the list of KOSIS statistical files used to create the following dataframe at the above url. 
 
 <br>
