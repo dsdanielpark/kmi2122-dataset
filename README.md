@@ -1,4 +1,3 @@
-Development Status :: 3 - Alpha <br>
 *Copyright (c) 2023 MinWoo Park*
 <br>
 
