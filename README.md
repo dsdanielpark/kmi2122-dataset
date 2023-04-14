@@ -1,3 +1,7 @@
+Development Status :: 3 - Alpha <br>
+*Copyright (c) 2023 MinWoo Park*
+<br>
+
 # KMI2122-dataset: A Collection of Korea Macroeconomic Indicators from 2021-2022 (Monthly, 24 Sequences)
 ![kmi2122-dataset](https://img.shields.io/badge/pypi-kmi2122-orange)
 ![Pypi Version](https://img.shields.io/pypi/v/kmi2122.svg)
